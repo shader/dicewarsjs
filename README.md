@@ -1,8 +1,16 @@
-# Dicewars JS
+# Fast Dicewars
 
-Play my version [here](https://www.chrisraff.com/dicewars/). My slightly improved AI are the pink, green and lime player.
+This is a fork of chrisraff's dicewarsjs, modified to remove a few buttons and add a speed toggle.
+By default, the framerate is set to 240; you can toggle the framerate:
+  * press "s" to slow down game to classic 60 fps
+  * press "f" to speed it up again 
 
-This is a modification of the game [Dice Wars](https://www.gamedesign.jp/games/dicewars/) from gamedesign.jp. I have added the ability to have multiple types of AI so I could try to create my own AI for the game.
+You can play this version [here](https://shader.github.io/dicewarsjs).
+
+# Modified Dicewars JS
+
+This is a modification of the game [Dice Wars](https://www.gamedesign.jp/games/dicewars/) from gamedesign.jp.
+chrisraff added the ability to have multiple types of AI.
 
 ## Usage
 
@@ -30,10 +38,7 @@ Once you have cloned the repository or downloaded the files, simply navigate to 
   * `game.adat[i].join[j]` is true (1) when region `i` is adjacent to region `j` and false (0) otherwise.
 
 ## Contributing
-If you make a cool new AI, let me know!
-
-## Potential Improvements
-I plan to make a version of the game that just plays the AI against themselves quickly so you can get statstics on how well each AI performs.
+If you make a cool new AI, let us know!
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
